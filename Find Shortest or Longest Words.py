@@ -1,4 +1,6 @@
-# # creating an empty list
+#Create funtion to input a list of strings and find the shortest and longest words.
+
+#creating an empty list
 new_list = []
 
 # a list of strings as input and split the strings

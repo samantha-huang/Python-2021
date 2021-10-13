@@ -9,7 +9,7 @@ cur.execute('''
 CREATE TABLE Counts (email TEXT, count INTEGER)''') #run create statment to create table
 
 fname = input('Enter file name: ') #enter file name
-if (len(fname) < 1): fname = '/Users/yushanhuang/Desktop/Python Program Backup/mbox-short.txt' #if the length of the name is less than 1, default the file name to 'mbox-short.txt'
+if (len(fname) < 1): fname = 'mbox-short.txt' #if the length of the name is less than 1, default the file name to 'mbox-short.txt'
 fh = open(fname) #open the file 
 for line in fh: #loop through the lines in the file
     if not line.startswith('From: '): continue #only get the from lines
